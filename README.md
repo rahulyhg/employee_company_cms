@@ -1,4 +1,8 @@
 ###SETUP
+
+NOTE: Step 1 only works on mac and linux computers. For windows users, please create .env file and set up
+laravel project how you normally would :)
+
 1) run sudo ./generate_files
 2) create the database you specified while running step 1
 3) run php artisan migrate - to migrate Database
