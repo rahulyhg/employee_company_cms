@@ -1,7 +1,11 @@
 ###SETUP
-1) run ./generate_files
-2) run php artisan serve
-
+1) run sudo ./generate_files
+2) create the database you specified while running step 1
+3) run php artisan migrate - to migrate Database
+4) run php artisan db:seed
+5) visit: http://localhost:8000/login   to login.
+Username = admin@site.com
+Password = password
 
 
 

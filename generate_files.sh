@@ -36,7 +36,7 @@ APP_LOG_LEVEL=debug
 APP_URL=http://localhost
 
 DB_CONNECTION=mysql
-DB_HOST=localhost
+DB_HOST=127.0.0.1
 DB_PORT=$port
 DB_DATABASE=$database
 DB_USERNAME=$username
